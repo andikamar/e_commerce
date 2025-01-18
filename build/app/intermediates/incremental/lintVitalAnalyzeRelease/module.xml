@@ -1,0 +1,25 @@
+<lint-module
+    format="1"
+    dir="/Users/macintoshhd/project/ecommerce-apps/android/app"
+    name=":app"
+    type="APP"
+    maven="android:app:"
+    gradle="7.4.2"
+    buildFolder="/Users/macintoshhd/project/ecommerce-apps/build/app"
+    bootClassPath="/Users/macintoshhd/Library/Android/sdk/platforms/android-34/android.jar:/Users/macintoshhd/Library/Android/sdk/build-tools/34.0.0/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-34">
+  <lintOptions
+      disable="InvalidPackage"
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true">
+    <severities>
+      <severity
+        id="InvalidPackage"
+        severity="IGNORE" />
+    </severities>
+  </lintOptions>
+  <variant name="release"/>
+</lint-module>

@@ -1,0 +1,4 @@
+#Sun Jan 19 04:22:11 WIB 2025
+base.0=/Users/macintoshhd/project/ecommerce-apps/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

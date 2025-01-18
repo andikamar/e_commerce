@@ -1,0 +1,40 @@
+<variant
+    name="release"
+    package="com.tes.e_commerce"
+    minSdkVersion="27"
+    targetSdkVersion="34"
+    shrinking="true"
+    mergedManifest="/Users/macintoshhd/project/ecommerce-apps/build/app/intermediates/merged_manifest/release/AndroidManifest.xml"
+    proguardFiles="/Users/macintoshhd/project/ecommerce-apps/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.4.2:/Users/macintoshhd/project/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro"
+    partialResultsDir="/Users/macintoshhd/project/ecommerce-apps/build/app/intermediates/lint_vital_partial_results/release/out"
+    desugaredMethodsFiles="/Users/macintoshhd/.gradle/caches/transforms-3/6174f29ee38626d264e824bb58b85b15/transformed/D8BackportedDesugaredMethods.txt">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifest="src/main/AndroidManifest.xml"
+        javaDirectories="src/main/java:src/main/kotlin"
+        resDirectories="src/main/res"
+        assetsDirectories="src/main/assets"/>
+    <sourceProvider
+        manifest="src/release/AndroidManifest.xml"
+        javaDirectories="src/release/java:src/release/kotlin"
+        resDirectories="src/release/res"
+        assetsDirectories="src/release/assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <manifestPlaceholders>
+    <placeholder
+        name="applicationName"
+        value="android.app.Application" />
+  </manifestPlaceholders>
+  <mainArtifact
+      classOutputs="/Users/macintoshhd/project/ecommerce-apps/build/app/intermediates/javac/release/classes:/Users/macintoshhd/project/ecommerce-apps/build/app/tmp/kotlin-classes/release:/Users/macintoshhd/project/ecommerce-apps/build/app/kotlinToolingMetadata:/Users/macintoshhd/project/ecommerce-apps/build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/R.jar"
+      applicationId="com.tes.e_commerce"
+      generatedSourceFolders="/Users/macintoshhd/project/ecommerce-apps/build/app/generated/ap_generated_sources/release/out:/Users/macintoshhd/project/ecommerce-apps/build/app/generated/aidl_source_output_dir/release/out:/Users/macintoshhd/project/ecommerce-apps/build/app/generated/source/buildConfig/release:/Users/macintoshhd/project/ecommerce-apps/build/app/generated/renderscript_source_output_dir/release/out"
+      generatedResourceFolders="/Users/macintoshhd/project/ecommerce-apps/build/app/generated/res/google-services/release:/Users/macintoshhd/project/ecommerce-apps/build/app/generated/res/rs/release:/Users/macintoshhd/project/ecommerce-apps/build/app/generated/res/resValues/release">
+  </mainArtifact>
+</variant>
