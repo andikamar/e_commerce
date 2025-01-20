@@ -48,7 +48,7 @@ class ProfileScreen extends StatelessWidget {
                               isNetworkImage: networkImage.isNotEmpty);
                     }),
                     TextButton(
-                        onPressed: () => controller.uploadUserProfilePicture(),
+                        onPressed: () => {},
                         child: const Text('Change profile picture'))
                   ],
                 ),
